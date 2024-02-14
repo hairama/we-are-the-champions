@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    color: white;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.freddie {
+    width: 90px;
+    margin: 0px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    margin: 30px auto;
+    flex-grow: 1;
+    
+}
+
+.text-input {
+    margin: 5px 36px;
+    padding: 5px 7px 0px 7px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: #444059;
+    border: none;
+    color: #8F8F8F;
+    font-family: "Inter", sans-serif;
+    resize: none;
+}
+
+button {
+    background-color: #28A9F1;
+    color: #04131C;
+    margin: 5px 36px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-size: 20px;
+    margin: 15px;
+}
+li {
+    background-color: #FFFFFF;
+    color: #1B1924;
+    font-size: 12px;
+    padding: 10px;
+    margin: 14px 36px;
+    min-height: 40px;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+}
+
+/*
+.josefin-sans-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+} */
